@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/disease_name1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DISEASE NAME"
+        android:textColor="#2F4F4F" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/disease_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/expectation1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="EXPECTATIONS"
+        android:textColor="#2F4F4F" />
+
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/expectation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/questions1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="QUESTIONS"
+        android:textColor="#2F4F4F" />
+
+
+    <TextView
+        android:id="@+id/questions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/treatments1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TREATMENTS"
+        android:textColor="#2F4F4F" />
+
+    <TextView
+        android:id="@+id/treatments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/risks1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="RISKS"
+        android:textColor="#2F4F4F" />
+
+
+    <TextView
+        android:id="@+id/risks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/symptoms1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SYMPTOMPS"
+        android:textColor="#2F4F4F" />
+
+
+    <TextView
+        android:id="@+id/symptoms"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/how_common1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HOW COMMON"
+        android:textColor="#2F4F4F" />
+
+
+    <TextView
+        android:id="@+id/how_common"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/selfcare1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SELFCARE"
+        android:textColor="#2F4F4F" />
+
+
+    <TextView
+        android:id="@+id/selfcare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/when_to_see_doctor1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="WHEN TO SEE DOCTOR"
+        android:textColor="#2F4F4F" />
+
+    <TextView
+        android:id="@+id/when_to_see_doctor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/diagnosed_by1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DIAGNOSED BY"
+        android:textColor="#2F4F4F" />
+
+
+    <TextView
+        android:id="@+id/diagnosed_by"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:id="@+id/made_worse_by1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MADE WORSE BY"
+        android:textColor="#2F4F4F" />
+
+
+    <TextView
+        android:id="@+id/made_worse_by"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

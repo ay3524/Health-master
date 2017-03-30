@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Add Predictions"
+        android:textSize="24sp" />
+
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="2"
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/symp"
+            android:text="Enter Symptoms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Ex.Chill,Fever etc."
+            android:id="@+id/predictions"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/age"
+            android:text="Enter Age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:maxLength="2"
+            android:inputType="number"
+            android:hint="Ex.20"
+            android:id="@+id/agesymp"
+            android:layout_width="300dp"
+            android:layout_height="50dp" />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/clear"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_pressed"
+            android:text="CLEAR"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="17sp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_pressed"
+            android:textColor="@android:color/white"
+            android:id="@+id/search"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="THATS IT SEARCH" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:text="* You may leave age section empty.\n* You can put multiple symptoms seperated by comma(,)"
+        android:layout_below="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Health Care</string>
+
+    <!-- Names -->
+    <string-array name="member_names">
+        <item>Symptomps Checker</item>
+        <item>Conditions</item>
+        <item>Medicine</item>
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="profile_pics">
+        <item>@drawable/body</item>
+        <item>@drawable/symptoms</item>
+        <item>@drawable/medicine</item>
+    </array>
+
+</resources>
